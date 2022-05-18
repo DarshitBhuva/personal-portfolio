@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image" href="img/darshit_pic.png">
+  <title>Resume</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+  section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+
+  .resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+  }
+
+  .resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #784cfb;
+    position: relative;
+  }
+
+  .resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+  }
+
+  .resume .resume-item h5 {
+    font-size: 16px;
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .resume .resume-item ul {
+    padding-left: 20px;
+  }
+
+  .resume .resume-item ul li {
+    padding-bottom: 10px;
+  }
+
+  .resume .resume-item:last-child {
+    padding-bottom: 0;
+  }
+
+  .resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #784cfb;
+  }
+
+  #progressBar {
+    width: 100%;
+    background-color: #ddd;
+    text-align: center;
+    color: #fff3f3;
+    border-radius: 12px;
+
+  }
+
+  #myProgress {
+    width: 85%;
+    background-color: #784cfb;
+    border-radius: 12px;
+  }
+
+  .skills {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .myskill {
+    margin-bottom: 18px;
+    margin-right: 50px;
+  }
+
+  .myskill h4 {
+    margin-bottom: 8px;
+  }
+</style>
+
+<body>
+
+  <header id="header">
+
+
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <img src="./img/darshit-logo.png" alt="" width="258px" />
+        </div>
+
+        <div class="links">
+          <ul>
+            <li>
+              <a href="#header">Home</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a href="resume.html" target="_blank">About</a>
+            </li>
+            <li>
+              <a href="#testimonials">Testimonials</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+            <li>
+              <a href="#hireme" class="active">Hire me</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="resume" class="resume">
+    <div class="container">
+
+      <div style="width: 100%; display:flex;">
+        <h2 class="title mx-auto d-block">Resume</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up">
+
+          <h3 class="resume-title">Education</h3>
+          <div class="resume-item">
+            <h4>Computer Engineering</h4>
+            <h5>2021 - Present</h5>
+            <p><em>Dharmsinh Desai Institute of Technology, Nadiad(Gujarat)</em></p>
+            <p>SPI --&gt; <b>1:</b> 8.92, <b>2:</b> 9.56, <b>3:</b> 8.52</p>
+          </div>
+          <div class="resume-item">
+            <h4>Higher Secondary Education</h4>
+            <h5>2018 - 2020</h5>
+            <p><em>A Success School, Jetpur</em></p>
+            <p>99.37 PR</p>
+          </div>
+          <div class="resume-item">
+            <h4>Secondary Education</h4>
+            <h5>2016 - 2018</h5>
+            <p><em>Shree Ankur Vidhyalaya, Jetpur</em></p>
+            <p>99.05 PR</p>
+          </div>
+          <div class="resume-item">
+            <h4>Primary School</h4>
+            <!-- <h5></h5> -->
+            <p><em>Shree Vivekanand Vidhyalaya, Jetpur</em></p>
+            <!-- <p>99.05 PR</p> -->
+          </div>
+
+          <h3 class="resume-title">Professional Experience</h3>
+          <div class="resume-item">
+            <h4>Tathastu DSA Schlor Internship</h4>
+            <h5>2021(Nov) - 2021(Nov)</h5>
+            <p><em>1 month Internship Program</em></p>
+            <ul>
+              <li>Solved Various Coding Problems</li>
+            </ul>
+          </div>
+
+          <h3 class="resume-title">Skills</h3>
+          <div class="resume-item">
+            <div class="skills">
+              <div class="myskill">
+                <h4>C++</h4>
+                <div id="progressBar">
+                  <div id="myProgress" style="width: 95%;">95%</div>
+                </div>
+              </div>
+              <div class="myskill">
+                <h4>C language</h4>
+                <div id="progressBar">
+                  <div id="myProgress" style="width: 90%;">90%</div>
+                </div>
+              </div>
+              <div class="myskill">
+                <h4>Python</h4>
+                <div id="progressBar">
+                  <div id="myProgress" style="width: 85%;">85%</div>
+                </div>
+              </div>
+              <div class="myskill">
+                <h4>HTML</h4>
+                <div id="progressBar">
+                  <div id="myProgress" style="width: 90%;">90%</div>
+                </div>
+              </div>
+              <div class="myskill">
+                <h4>PHP</h4>
+                <div id="progressBar">
+                  <div id="myProgress" style="width: 80%;">80%</div>
+                </div>
+              </div>
+              <div class="myskill">
+                <h4>Java</h4>
+                <div id="progressBar">
+                  <div id="myProgress" style="width: 80%;">80%</div>
+                </div>
+              </div>
+              <div class="myskill">
+                <h4>Django</h4>
+                <div id="progressBar">
+                  <div id="myProgress" style="width: 95%;">95%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+        
+        <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+
+          <h3 class="resume-title">Projects</h3>
+          <div class="resume-item">
+            <h4>Personal Portfolio Website</h4>
+            <h5>Oct, 2021 - Present</h5>
+            <!-- <p><em>1 month Internship Program</em></p>
+            <ul>
+              <li>Solved Various Coding Problems</li>
+            </ul> -->
+          </div>
+          <div class="resume-item">
+            <h4>Online Pizza Ordering System</h4>
+            <h5>Apr, 2021 - June, 2021</h5>
+            <p><em>Used Techonologies are: </em></p>
+            <ul>
+              <li>- HTML, CSS, JavaScript</li>
+              <li>- PHP</li>
+              <li>- Mysqli Database</li>
+              <li>- Bootstrap</li>
+            </ul>
+            <p><em>Functionalities: </em></p>
+            <ul>
+              <li>- Register User</li>
+              <li>- Login / Logout</li>
+              <li>- Order Pizza </li>
+              <li>- Add to Cart</li>
+              <li>- Get Receipt Of Order</li>
+              <li>- Get Conformation Mail Of Order</li>
+              <li>- Make Payments</li>
+              <li>- Cancel Order within 10 minutes</li>
+              <li>- User Will get Cancellation Mail</li>
+              <li>- View all Orders</li>
+            </ul>
+          </div>
+          <div class="resume-item">
+            <h4>PyGitHub Bots</h4>
+            <h5>Jan, 2022 - Apr, 2022</h5>
+            <p><em>Used Techonologies are: </em></p>
+            <ul>
+              <li>- Python
+                <ul>
+                  <small>
+                    <li>&diam; aiohttp</li>
+                  </small>
+                  <small>
+                    <li>&diam; gedgethub</li>
+                  </small>
+                  <small>
+                    <li>&diam; os</li>
+                  </small>
+                </ul>
+              </li>
+              <li>- Github Requirements
+                <ul>
+                  <small>
+                    <li>&diam; Git & Github</li>
+                  </small>
+                  <small>
+                    <li>&diam; Generating Github Token</li>
+                  </small>
+                  <small>
+                    <li>&diam; Generating Webhook of Repository</li>
+                  </small>
+                </ul>
+              </li>
+              <li>- Heroku</li>
+
+            </ul>
+            <p><em>Automated Functionalities by Bot: </em></p>
+            <ul>
+              <li>- Creating the issues</li>
+              <li>- Creating the Pull Request</li>
+              <li>- Showing greeting message to the user whenever he/she creates the issue </li>
+              <li>- Showing greeting message to the user whenever he/she creates the pull request</li>
+              <li>- Labeling the pull request and issues</li>
+              <li>- User Authentication in website</li>
+              <li>- Remove User from website</li>
+              <li>- Do comment according to preset question</li>
+              <li>- Automatic replies to the users</li>
+              <li>- Showing the builds messages</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
